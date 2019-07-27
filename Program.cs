@@ -5,10 +5,16 @@ namespace n_queens_dotnet
     class Program
     {
         const int queenCount = 12;
-        static int[] queenList = new int[queenCount];
+        static int[] queenList;
 
         static void Main(string[] args)
         {
+            testEightQueens();
+        }
+
+        static void testEightQueens()
+        {
+            queenList = new int[queenCount];
             putQueen(0);
         }
 
