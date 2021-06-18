@@ -1,3 +1,5 @@
 /.vscode
 /bin
 /obj
+.vs/n_queens_dotnet/v16/.suo
+.vs/n_queens_dotnet/DesignTimeBuild/.dtbcache.v2
